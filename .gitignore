@@ -1,0 +1,26 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ruff_cache/
+
+# 個人の作業ファイル(公開しない)
+sample_excel/
+要件.md
+
+# scripts/make_variants.py が生成する架空サンプル
+examples/
+
+# Excel のロックファイル
+~$*
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
